@@ -1,11 +1,10 @@
 import dashscope
 import threading
 import suan_fa_yj
-import os
 
-api_key=os.getenv("DASHSCOPE_API_KEY")
+#api_key=os.getenv("DASHSCOPE_API_KEY")
 #export DASHSCOPE_API_KEY=YOUR_API_KEY
-dashscope.api_key = "sk-HZ7lMsU5bu"
+dashscope.api_key = "sk-HZ7lM*****" #使用自己的api_key
 test_dongyao = "请按以下鼎卦的格式，给出履卦和九四爻的介绍，控制在150字以内，注意要严格按下面的格式，不要有多余的解释\n\
         鼎：打破惯性，破旧立新\n\
         卦词：鼎，元吉，亨\n\
